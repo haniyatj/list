@@ -1,0 +1,38 @@
+/* BlogList.css */
+.blog-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .blog-list-header {
+    background-color: #e49e9e;
+    padding: 5px;
+    text-align: center;
+    max-width:2000px;
+    
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
